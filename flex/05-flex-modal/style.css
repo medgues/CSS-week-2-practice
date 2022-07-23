@@ -64,3 +64,28 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+/* solution */
+.card{
+  display: flex;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  padding: 15px 15px 15px 0px
+}
+.icon{
+  flex-shrink: 0;
+  margin: 15px 15px 0px 15px;
+}
+.content-header{
+  display: flex;
+  justify-content: space-between;
+}
+.header{
+  font-weight: 600;
+  font-size:19px;
+  padding-bottom: 15px;
+}
+button{
+  margin-bottom: 15px;
+}
